@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-26T12:02:28 IST" name="Default suite" finished-at="2024-11-26T12:02:28 IST" duration-ms="89">
+    <groups>
+      <group name="regression">
+        <method signature="SmokeTest.test3()[pri:0, instance:gvpparalleltesting.SmokeTest@f0c8a99]" name="test3" class="gvpparalleltesting.SmokeTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="SmokeTest.test1()[pri:0, instance:gvpparalleltesting.SmokeTest@f0c8a99]" name="test1" class="gvpparalleltesting.SmokeTest"/>
+        <method signature="SmokeTest.test2()[pri:0, instance:gvpparalleltesting.SmokeTest@f0c8a99]" name="test2" class="gvpparalleltesting.SmokeTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="SmokeTest.test2()[pri:0, instance:gvpparalleltesting.SmokeTest@f0c8a99]" name="test2" class="gvpparalleltesting.SmokeTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-11-26T12:02:28 IST" name="Default test" finished-at="2024-11-26T12:02:28 IST" duration-ms="89">
+      <class name="gvpparalleltesting.SmokeTest">
+        <test-method signature="test1()[pri:0, instance:gvpparalleltesting.SmokeTest@f0c8a99]" started-at="2024-11-26T12:02:28 IST" name="test1" finished-at="2024-11-26T12:02:28 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:gvpparalleltesting.SmokeTest@f0c8a99]" started-at="2024-11-26T12:02:28 IST" name="test2" finished-at="2024-11-26T12:02:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:gvpparalleltesting.SmokeTest@f0c8a99]" started-at="2024-11-26T12:02:28 IST" name="test3" finished-at="2024-11-26T12:02:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- gvpparalleltesting.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
